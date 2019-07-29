@@ -1,4 +1,4 @@
-import Error from './../../_error';
+import Error from '../_error';
 
 const users = [
 	{

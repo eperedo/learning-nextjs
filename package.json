@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev"
+    "build": "next build",
+    "dev": "next dev",
+    "export": "next export",
+    "static": "yarn build && yarn export"
   },
   "dependencies": {
     "next": "^9.0.2",
